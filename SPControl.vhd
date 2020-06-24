@@ -17,12 +17,12 @@ architecture SPControl_imp of SPControl is
       SIGNAL next_empty: INTEGER;
 
 begin
-    process(clk) 
+    process(en, dir) 
 	begin  
         if (rst = '1') THEN
 		    next_empty <= (2 ** 11) - 1;	
             SPAddress <= std_logic_vector(to_unsigned(next_empty, 11) - 1);
-        elsif (rising_edge(clk)) THEN
+        else
             if (en = '1') THEN
                 if (dir = '1')THEN
                     IF (next_empty = 2047) THEN
