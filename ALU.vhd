@@ -49,14 +49,20 @@ BEGIN
                 temp(31 downto 0) :=  NOT A;
                 F <= temp(31 downto 0);
             WHEN "0110" =>
-                CF <= A(to_integer(unsigned(B))-1);
-                --temp(31 downto 0) := std_logic_vector(shift_right(unsigned(A), to_integer(unsigned(B(8 downto 4))))) ;
-                temp(31 downto 0) := std_logic_vector(shift_right(unsigned(A), to_integer(unsigned(B))));
-                F <= temp(31 downto 0);
+                IF B /= x"00000000" THEN
+                    CF <= A(to_integer(unsigned(B(4 downto 0)))-1);
+                    temp(31 downto 0) := std_logic_vector(shift_right(unsigned(A), to_integer(unsigned(B(4 downto 0)))));
+                ELSE
+                    report "Shmnt is Zero: Rshift won't be applied";
+                END IF;
+                    F <= temp(31 downto 0);
             WHEN "0111" =>
-                CF <= A(32 - to_integer(unsigned(B)));
-                --temp(31 downto 0) := std_logic_vector(shift_left(unsigned(A), to_integer(unsigned(B(8 downto 4))))) ;
-                temp(31 downto 0) := std_logic_vector(shift_left(unsigned(A), to_integer(unsigned(B)))) ;
+                IF B /= x"00000000" THEN
+                    CF <= A(32 - to_integer(unsigned(B)));
+                    temp(31 downto 0) := std_logic_vector(shift_left(unsigned(A), to_integer(unsigned(B(4 downto 0))))) ;
+                ELSE
+                    report "Shmnt is Zero: Lshift won't be applied";
+                END IF;
                 F <= temp(31 downto 0);
             WHEN "1000" =>
                 temp := ('0' & A) + 1;
@@ -69,10 +75,8 @@ BEGIN
             WHEN others =>
                 null;
             END CASE;
-            IF (temp(31 downto 0) = "0000" and sel /= "0000") THEN
+            IF (temp(31 downto 0) = x"00000000" and sel /= "0000") THEN
                 ZF <= '1';
-            ELSE 
-                ZF <= '0';
             END IF;
             IF sel /= "0000" THEN
                 NF <= temp(31);

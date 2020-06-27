@@ -216,7 +216,7 @@ architecture Processor_imp of processor is
     -------------------- MEM MAIN COMPONENT -------------------------
     COMPONENT DataMemory is
         PORT(
-            clk, rst: IN std_logic;
+            clk, rst, en: IN std_logic;
             dataAddress: IN std_logic_vector(10 downto 0);
             dataDataOut: OUT std_logic_vector(31 downto 0);
             dataDataIn: IN std_logic_vector(31 downto 0);
@@ -231,12 +231,6 @@ architecture Processor_imp of processor is
         );
     END COMPONENT;
 
-    COMPONENT SPControl IS
-        PORT(
-          clk, rst, en, dir: IN std_logic;
-          SPAddress: OUT  std_logic_vector(10 downto 0)
-        ) ;
-    END COMPONENT;
 
     SIGNAL EXC_MEM_STALL: std_logic:='0';
     SIGNAL MEM_MemWrt, MEM_CALL, MEM_RET, MEM_RTI, MEM_MemToReg, MEM_PortIn, MEM_PortOut,
@@ -343,10 +337,10 @@ BEGIN
         ZFOut, NFOut, CFOut);
     ForwardUnitFX: ForwardUnit PORT MAP(MEM_RegWrt1(0), WB_RegWrt1(0), MEM_Rd, EXC_Rs, EXC_Rt, WB_Rd,
         RS_Forward, RT_Forward);
-    OP1MUXFX: MUX21 GENERIC MAP(32) PORT MAP(EXC_R1, EXC_Imm, EXC_ALUSrcLDM(0), ALUSrcLDMMux);
-    OP2MUXFX: MUX21 GENERIC MAP(32) PORT MAP(EXC_R2, EXC_Imm, EXC_ALUSrc(0), ALUSrcMux);
-    RSMUXFX: MUX41 GENERIC MAP(32) PORT MAP(ALUSrcLDMMux, DWrite1, MEM_F, ALUSrcLDMMux, RS_Forward, ALUOp1);
-    RTMUXFX: MUX41 GENERIC MAP(32) PORT MAP(ALUSrcMux, DWrite1, MEM_F, ALUSrcMux, RS_Forward, ALUOp2);
+    OP1MUXFX: MUX21 GENERIC MAP(32) PORT MAP(EXC_R1, EXC_Imm, EXC_ALUSrcLDM(0), ALUOp1);
+    OP2MUXFX: MUX21 GENERIC MAP(32) PORT MAP(EXC_R2, EXC_Imm, EXC_ALUSrc(0), ALUOp2);
+    --RSMUXFX: MUX41 GENERIC MAP(32) PORT MAP(ALUSrcLDMMux, DWrite1, MEM_F, ALUSrcLDMMux, RS_Forward, ALUOp1);
+    --RTMUXFX: MUX41 GENERIC MAP(32) PORT MAP(ALUSrcMux, DWrite1, MEM_F, ALUSrcMux, RS_Forward, ALUOp2);
 
             --- EXC_MEM REGISTER ---
     EXC_MEM_RST <= rst OR MEM_CALL(0) or MEM_RET(0) OR MEM_RTI(0);
@@ -357,9 +351,8 @@ BEGIN
         MEM_F, MEM_R2, MEM_Rd, MEM_Rd2, MEM_EA, MEM_PC);
     
             --- MEM STAGE INTERCONNECTIONS ---
-    DataMemoryFX: DataMemory PORT MAP(clk, rst, MemAddMux, MEM_MemOut, MemDataMux, MEM_MemWrt(0));
+    DataMemoryFX: DataMemory PORT MAP(clk, rst, MEM_SP(0), MemAddMux, MEM_MemOut, MemDataMux, MEM_MemWrt(0));
     MemPCAdderFX: MemPCAdder PORT MAP(MEM_PC, Mem_PC_OUT);
-    SPControlFX: SPControl PORT MAP(clk, rst, MEM_SP(0), MEM_SP(1), SPAddress); 
     MEMDataMUXFX: MUX21 GENERIC MAP(32) PORT MAP(MEM_F, Mem_PC_OUT, MEM_CALL(0), MemDataMux);
     MEMAddMUXFX: MUX21  GENERIC MAP(11) PORT MAP(MEM_EA, SPAddress, MEM_SP(0), MemAddMux);
     
@@ -368,7 +361,7 @@ BEGIN
         MEM_MemToReg, MEM_PortIn, MEM_PortOut, MEM_RegWrt1, MEM_RegWrt2, 
         WB_MemToReg, WB_PortIn, WB_PortOut, WB_RegWrt1, WB_RegWrt2,
         MEM_MemOut, MEM_R2, MEM_F, MEM_Rd, MEM_Rd2,
-        WB_MemOut, WB_R2, WB_F, WB_Rd, MEM_Rd2);
+        WB_MemOut, WB_R2, WB_F, WB_Rd, WB_Rd2);
 
             --- MEM STAGE INTERCONNECTIONS ---
     

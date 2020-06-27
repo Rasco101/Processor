@@ -40,8 +40,8 @@ architecture behavior_ControlUnit of ControlUnit is
     RegWrite1 <= '1' when InstructionOpcode = "00101" or InstructionOpcode = "00111"
     or InstructionOpcode = "01010" or InstructionOpcode = "01011"
 	or InstructionOpcode = "00010" or InstructionOpcode = "00011" 
-	or InstructionOpcode = "00100" or InstructionOpcode = "00001"
-    else '0';
+  or InstructionOpcode = "00100" or InstructionOpcode = "00001"
+  OR InstructionOpcode = "01001" else '0';
       
     RegWrite2 <= '1' when InstructionOpcode = "00101"
     else '0';
