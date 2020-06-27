@@ -1,0 +1,49 @@
+add wave -position insertpoint  \
+sim:/processor/CLK \
+sim:/processor/RST \
+sim:/processor/ID_ALUSrc \
+sim:/processor/ID_ALUSrcLDM \
+sim:/processor/reg_fileFX/DWrite1 \
+sim:/processor/ID_RegWrt1 \
+sim:/processor/Src1Mux \
+sim:/processor/EXC_ALUSrc \
+sim:/processor/EXC_ALUSrcLDM \
+sim:/processor/EXC_RegWrt1 \
+sim:/processor/EXC_Imm \
+sim:/processor/ID_Imm \
+sim:/processor/MEM_RegWrt1 \
+sim:/processor/EXC_F \
+sim:/processor/ALUOp1 \
+sim:/processor/MEM_F \
+sim:/processor/WB_F \
+sim:/processor/WB_Rd \
+sim:/processor/EXC_MemWrt \
+sim:/processor/MEM_MemWrt \
+sim:/processor/SPAddress \
+sim:/processor/SPControlFX/next_empty \
+sim:/processor/ID_SP \
+sim:/processor/EXC_SP \
+sim:/processor/MEM_SP \
+sim:/processor/reg_fileFX/rData
+force -freeze sim:/processor/CLK  1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/RST 1 0
+run
+force -freeze sim:/processor/RST 0 0
+force -freeze sim:/processor/InstMemoryFX/RAM(0) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(1) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(2) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(3) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(4) 1111111111100000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(5) 0101000100000001  0
+force -freeze sim:/processor/InstMemoryFX/RAM(6) 0001111010100000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(7) 0101000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(8) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(9) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(10) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(11) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(12) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(13) 0000000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(14) 0000000000011111  0
+force -freeze sim:/processor/InstMemoryFX/RAM(15) 0110000000000000  0
+force -freeze sim:/processor/InstMemoryFX/RAM(16) 0000000000011111  0
+force -freeze sim:/processor/InstMemoryFX/RAM(17) 0101101000000000  0
