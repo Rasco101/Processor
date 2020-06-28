@@ -30,13 +30,10 @@ component my_nDFF is
   q : OUT std_logic_vector(n-1 DOWNTO 0));
 end component;
       SIGNAL rst: std_logic:='0';
-      SIGNAL CLOCK: STD_LOGIC;
   BEGIN
-  CLOCK <= not CLK;
-    IF_ID_Inst: my_nDFF  GENERIC MAP(32) PORT MAP(clk, rst, IF_Inst, stall, ID_Inst);
+    IF_ID_Inst: my_nDFF  GENERIC MAP(32) PORT MAP(clk, Rst, IF_Inst, stall, ID_Inst);
 
-    IF_ID_PC: my_nDFF GENERIC MAP(11) PORT MAP(clk, rst, IF_PC, stall, ID_PC);
-    
+    IF_ID_PC: my_nDFF GENERIC MAP(11) PORT MAP(clk, Rst, IF_PC, stall, ID_PC);
     PROCESS (rst_temp, IF_PC) BEGIN
       rst <= '0';
       IF rising_edge(rst_temp) THEN
