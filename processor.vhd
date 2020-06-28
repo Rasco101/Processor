@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 use IEEE.std_logic_unsigned.all;
 
 ENTITY Processor IS
-    PORT(   CLK, RST, INT: IN std_logic;
+    PORT(   CLK, RST_tt, INT: IN std_logic;
         PortInput: IN std_logic_vector(31 downto 0);
         PortOutput: OUT std_logic_vector(31 downto 0) );
 END Processor;
@@ -47,7 +47,7 @@ architecture Processor_imp of processor is
                     -- ///////     IF_ID_REG   ////// --
     COMPONENT IF_ID_Register IS
         PORT( 
-            clk,rst, stall : IN std_logic;
+            clk,rst_temp, stall : IN std_logic;
             -- To ID Stage
             -- IN
             IF_Inst: IN std_logic_vector(31 downto 0);
@@ -293,9 +293,10 @@ architecture Processor_imp of processor is
     SIGNAL isBranching, RETMUXSel, IF_ID_RST, ID_EXC_RST, EXC_MEM_RST: std_logic;
     SIGNAL PCAdderOut, RegAdderOutMux, CALLMux: std_logic_vector(10 downto 0);  
     SIGNAL ApplyBranching, PCLatch: std_logic;
+    SIGNAL rst: std_logic:='0';
 
 BEGIN
-
+        rst <= RST_tt;
             --- IF STAGE INTERCONNECTIONS ---
     
     PCFX: PC_Reg PORT MAP(clk, rst, Latch, '0', PCIn, IF_PC);

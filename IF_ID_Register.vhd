@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 
 ENTITY IF_ID_Register IS
   PORT( 
-	  clk,rst, stall : IN std_logic;
+	  clk,rst_temp, stall : IN std_logic;
     
     -- To ID Stage
     -- IN
@@ -29,19 +29,19 @@ component my_nDFF is
   stall : in std_logic;
   q : OUT std_logic_vector(n-1 DOWNTO 0));
 end component;
-      SIGNAL rst_temp: std_logic:='0';
+      SIGNAL rst: std_logic:='0';
+      SIGNAL CLOCK: STD_LOGIC;
   BEGIN
-    IF_ID_Inst: my_nDFF  GENERIC MAP(32) PORT MAP(clk, Rst, IF_Inst, stall, ID_Inst);
+  CLOCK <= not CLK;
+    IF_ID_Inst: my_nDFF  GENERIC MAP(32) PORT MAP(clk, rst, IF_Inst, stall, ID_Inst);
 
-    IF_ID_PC: my_nDFF GENERIC MAP(11) PORT MAP(clk, Rst, IF_PC, stall, ID_PC);
-    -- PROCESS (clk) BEGIN
-    --   IF falling_edge(clk) THEN
-    --     IF rst = '1' THEN
-    --       rst_temp <= '1';
-    --     ELSE 
-    --       rst_temp <= '0';
-    --     END IF;
-    --   END IF;
-    -- END PROCESS;
+    IF_ID_PC: my_nDFF GENERIC MAP(11) PORT MAP(clk, rst, IF_PC, stall, ID_PC);
+    
+    PROCESS (rst_temp, IF_PC) BEGIN
+      rst <= '0';
+      IF rising_edge(rst_temp) THEN
+        rst <= '1';
+      END IF;
+    END PROCESS;
 
 END behavior_IF_ID_Register;

@@ -1,4 +1,12 @@
-{D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd}
+{D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControlUnit
+-- Compiling architecture behavior_ControlUnit of ControlUnit
+
+} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -39,7 +47,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity FlagsRegister
 -- Compiling architecture behavior_FlagsRegister of FlagsRegister
 
-} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\College\3rd_Year\Computer Architecture\Project\Mazen\PC.vhd}
+} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -108,15 +116,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity MUX21
 -- Compiling architecture behavior_MUX21 of MUX21
 
-} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity IF_ID_Register
--- Compiling architecture behavior_IF_ID_Register of IF_ID_Register
-
 } {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -141,6 +140,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity InstMemory
 -- Compiling architecture InstMemort_inp of InstMemory
+
+} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Processor
+-- Compiling architecture Processor_imp of processor
 
 } {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

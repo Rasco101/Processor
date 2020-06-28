@@ -16,7 +16,7 @@ ARCHITECTURE PC_Reg_Imp OF PC_Reg IS
 	BEGIN
 		IF(rst = '1') THEN
 			PCOut <= (others=>'0');
-		ELSIF (rising_edge(Clk)) THEN
+		ELSIF (falling_edge(Clk)) THEN
 			if (stall = '0') THEN
 				PCOut <= PCIn;
 			END IF;
