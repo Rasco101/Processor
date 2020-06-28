@@ -12,7 +12,7 @@ END PC_Reg;
 ARCHITECTURE PC_Reg_Imp OF PC_Reg IS
     
     BEGIN      
-	PROCESS(clk, rst, latch)
+	PROCESS(clk, rst, latch, PCIn)
 	BEGIN
 		IF(rst = '1') THEN
 			PCOut <= (others=>'0');

@@ -17,12 +17,13 @@ architecture behavior_ControlUnit of ControlUnit is
 	or InstructionOpcode = "00011" or InstructionOpcode = "00100" 
 	else '0';
       
-    RegDst1 <= '1' when InstructionOpcode = "00001" or InstructionOpcode = "00110"
+  RegDst1 <= '1' when InstructionOpcode = "00001" or InstructionOpcode = "00110"
     or InstructionOpcode = "01000" or InstructionOpcode = "01010"
     or InstructionOpcode = "01011" or InstructionOpcode = "01100"
     or InstructionOpcode = "01101" or InstructionOpcode = "01110"
     or InstructionOpcode = "01111" or InstructionOpcode = "10000"
-	or InstructionOpcode = "00100" else '0';
+    or InstructionOpcode = "00100" or InstructionOpcode = "10001" 
+    else '0';
     
 	SETC <= '1' WHEN InstructionOpcode = "10100" ELSE '0';
 	

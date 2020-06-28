@@ -343,9 +343,8 @@ BEGIN
     --RSMUXFX: MUX41 GENERIC MAP(32) PORT MAP(ALUSrcLDMMux, DWrite1, MEM_F, ALUSrcLDMMux, RS_Forward, ALUOp1);
     --RTMUXFX: MUX41 GENERIC MAP(32) PORT MAP(ALUSrcMux, DWrite1, MEM_F, ALUSrcMux, RS_Forward, ALUOp2);
 
-            --- EXC_MEM REGISTER ---
-    EXC_MEM_RST <= rst OR MEM_CALL(0) or MEM_RET(0) OR MEM_RTI(0);
-    EXC_MEM_REGFX: EX_MEM_Register PORT MAP(clk ,EXC_MEM_RST, EXC_MEM_STALL, EXC_MemWrt, EXC_CALL, EXC_RET, 
+            --- EXC_MEM REGISTER -- 
+    EXC_MEM_REGFX: EX_MEM_Register PORT MAP(clk ,rst , EXC_MEM_STALL, EXC_MemWrt, EXC_CALL, EXC_RET, 
         EXC_RTI, EXC_SP, MEM_MemWrt, MEM_CALL, MEM_RET, MEM_RTI, MEM_SP, EXC_MemToReg, EXC_PortIn,
         EXC_PortOut, EXC_RegWrt1, EXC_RegWrt2,MEM_MemToReg, MEM_PortIn, MEM_PortOut, MEM_RegWrt1, MEM_RegWrt2,
         EXC_F, EXC_R2, EXC_Rd, EXC_Rd2, EXC_EA, EXC_PC, 
@@ -364,8 +363,7 @@ BEGIN
         MEM_MemOut, MEM_R2, MEM_F, MEM_Rd, MEM_Rd2,
         WB_MemOut, WB_R2, WB_F, WB_Rd, WB_Rd2);
 
-            --- MEM STAGE INTERCONNECTIONS ---
-    
+            --- WB STAGE INTERCONNECTIONS ---
     MEMToRegMUXFX: MUX21 GENERIC MAP(32) PORT MAP(WB_F, WB_MemOut, WB_MemToReg(0), MemToRegMux);
     PORToRegMUXFX: MUX21 GENERIC MAP(32) PORT MAP(MemToRegMux, PortOut, WB_PortIn(0), DWrite1);
 
@@ -375,6 +373,7 @@ BEGIN
     CALLMUXFX: MUX21 GENERIC MAP(11) PORT MAP(RegAdderOutMux, MEM_F(10 DOWNTO 0), MEM_CALL(0), CALLMux);
     RETMUXSel <= MEM_RET(0) OR MEM_RTI(0);
     RETMUXFX: MUX21 GENERIC MAP(11) PORT MAP(CALLMux, MEM_MemOut(10 DOWNTO 0), RETMUXSel, PCIn);
+    
     PROCESS(IF_ID_RST) BEGIN
         IF isBranching = '1' THEN
             ApplyBranching <= '1';
