@@ -292,18 +292,19 @@ architecture Processor_imp of processor is
     
     SIGNAL isBranching, RETMUXSel, IF_ID_RST, ID_EXC_RST, EXC_MEM_RST: std_logic;
     SIGNAL PCAdderOut, RegAdderOutMux, CALLMux: std_logic_vector(10 downto 0);  
-    
+    SIGNAL ApplyBranching, PCLatch: std_logic;
 
 BEGIN
 
             --- IF STAGE INTERCONNECTIONS ---
+    
     PCFX: PC_Reg PORT MAP(clk, rst, Latch, '0', PCIn, IF_PC);
     InstMemoryFX:  InstMemory PORT MAP(clk, rst, IF_PC, IF_Inst, '0');
     PC_AdderFX: PC_Adder PORT MAP(IF_PC, PCAdderOut);
     PCLatchSignalsFX: PCLatchSignals PORT MAP(MEM_RET(0), Mem_RTI(0), MEM_CALL(0), isBranching, Latch);
 
             --- IF_ID REGISTER INTERCONNECTIONS ---
-    IF_ID_RST <= rst OR isBranching OR MEM_CALL(0) or MEM_RET(0) OR MEM_RTI(0);
+    IF_ID_RST <= rst OR MEM_CALL(0) or MEM_RET(0) OR MEM_RTI(0);
     IF_ID_RegisterFX: IF_ID_Register PORT MAP(clk, IF_ID_RST, '0', IF_Inst, ID_Inst, IF_PC, ID_PC);
     
             --- ID STAGE INTERCONNECTIONS ---
@@ -370,11 +371,15 @@ BEGIN
 
             --- PUBLIC INTERCONNECTIONS ---
     JumpTypeDetectionUnitFX: JumpTypeDetectionUnit PORT MAP(ZF, NF, CF, JZ, JN, JC, JMP, isBranching);
-    BranchingMUXFX: MUX21 GENERIC MAP(11) PORT MAP(PCAdderOut, EXC_F(10 DOWNTO 0), isBranching, RegAdderOutMux);
+    BranchingMUXFX: MUX21 GENERIC MAP(11) PORT MAP(PCAdderOut, ID_R1(10 downto 0), isBranching, RegAdderOutMux);
     CALLMUXFX: MUX21 GENERIC MAP(11) PORT MAP(RegAdderOutMux, MEM_F(10 DOWNTO 0), MEM_CALL(0), CALLMux);
     RETMUXSel <= MEM_RET(0) OR MEM_RTI(0);
     RETMUXFX: MUX21 GENERIC MAP(11) PORT MAP(CALLMux, MEM_MemOut(10 DOWNTO 0), RETMUXSel, PCIn);
-
+    PROCESS(IF_ID_RST) BEGIN
+        IF isBranching = '1' THEN
+            ApplyBranching <= '1';
+        END IF;
+    END PROCESS;
     PROCESS(clk) BEGIN
         IF WB_PortIn = "1" THEN 
             PortOut <= PortInput;

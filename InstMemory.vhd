@@ -17,16 +17,20 @@ architecture InstMemort_inp of InstMemory is
     type RAM_TYPE is array (0 to (2**11)-1) of std_logic_vector(15 downto 0);
     Signal RAM: RAM_TYPE;
 begin
-    PROCESS(clk) 
-    BEGIN
-        IF rst = '1' THEN
-            instDataOut <= (others => '0');
-        ELSIF rising_edge(clk) THEN
-            if (instMemWrt = '0') THEN
-                instDataOut(15 downto 0) <= RAM(to_integer(unsigned(instAddress)));
-                instDataOut(31 downto 16) <= RAM(to_integer(unsigned(instAddress))+1);
-            END if;
-        END IF;	
-    END PROCESS;
+    instDataOut(15 downto 0) <= RAM(to_integer(unsigned(instAddress))) WHEN rst = '0'
+        ELSE (others => '0');
+    instDataOut(31 downto 16) <= RAM(to_integer(unsigned(instAddress))+1) WHEN rst = '0'
+        ELSE (others => '0');
+    -- PROCESS(clk, rst) 
+    -- BEGIN
+    --     IF rst = '1' THEN
+    --         instDataOut <= (others => '0');
+    --     ELSE
+    --         if (instMemWrt = '0') THEN
+    --             instDataOut(15 downto 0) <= RAM(to_integer(unsigned(instAddress)));
+    --             instDataOut(31 downto 16) <= RAM(to_integer(unsigned(instAddress))+1);
+    --         END if;
+    --     END IF;	
+    -- END PROCESS;
 
 end architecture InstMemort_inp;    

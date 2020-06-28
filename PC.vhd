@@ -12,18 +12,21 @@ END PC_Reg;
 ARCHITECTURE PC_Reg_Imp OF PC_Reg IS
     
     BEGIN      
-	PROCESS(clk, Latch, rst)
+	PROCESS(clk, rst, latch)
 	BEGIN
 		IF(rst = '1') THEN
 			PCOut <= (others=>'0');
-		ELSif ((Latch = '1' or rising_edge(Clk))) THEN
+		ELSIF (rising_edge(Clk)) THEN
 			if (stall = '0') THEN
 				PCOut <= PCIn;
 			END IF;
 		END IF;
-	END PROCESS;
+		IF Latch = '1' THEN
+			PCOut <= PCIn;
+		END IF;
+	END PROCESS; 
  end architecture;
-   
+
    
    
    
