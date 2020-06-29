@@ -6,17 +6,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ControlUnit
 -- Compiling architecture behavior_ControlUnit of ControlUnit
 
-} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ALU
--- Compiling architecture rtl of ALU
-
 } {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -82,6 +71,23 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ALUControlUnit
 -- Compiling architecture behavior_ALUControlUnit of ALUControlUnit
 
+} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ID_EX_Register
+-- Compiling architecture behavior_ID_EX_Register of ID_EX_Register
+
+} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity External_Port
+-- Compiling architecture Port_imp of External_Port
+
 } {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -98,23 +104,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity MUX21
 -- Compiling architecture behavior_MUX21 of MUX21
-
-} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity External_Port
--- Compiling architecture Port_imp of External_Port
-
-} {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ID_EX_Register
--- Compiling architecture behavior_ID_EX_Register of ID_EX_Register
 
 } {} {}} {D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

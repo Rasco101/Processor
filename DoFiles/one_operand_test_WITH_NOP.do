@@ -1,5 +1,11 @@
 add wave -position insertpoint  \
-sim:/processor/reg_fileFX/rData sim:/processor/ID_inst sim:/processor/ID_RegWrt1 sim:/processor/ID_RegWrt2 sim:/processor/ID_inst sim:/processor/ID_R1 sim:/processor/ID_R2 sim:/processor/reg_fileFX/OutR1 sim:/processor/reg_fileFX/OutR2 sim:/processor/reg_fileFX/R1 sim:/processor/reg_fileFX/R2 sim:/processor/ID_Imm sim:/processor/ALUFunc sim:/processor/ALUOp1 sim:/processor/ALUOp2 sim:/processor/ID_Imm sim:/processor/EXC_F sim:/processor/MEM_F sim:/processor/MEM_R2 sim:/processor/WB_F sim:/processor/WB_R2 sim:/processor/WB_Rd sim:/processor/WB_Rd2 sim:/processor/WB_RegWrt1 sim:/processor/WB_RegWrt2 sim:/processor/ZF sim:/processor/CF sim:/processor/NF 
+sim:/processor/CLK sim:/processor/RST_tt sim:/processor/reg_fileFX/rData sim:/processor/ID_inst sim:/processor/ID_RegWrt1 sim:/processor/ID_RegWrt2 sim:/processor/ID_inst sim:/processor/ID_R1 sim:/processor/ID_R2 sim:/processor/reg_fileFX/OutR1 sim:/processor/reg_fileFX/OutR2 sim:/processor/reg_fileFX/R1 sim:/processor/reg_fileFX/R2 sim:/processor/ID_Imm sim:/processor/ALUFunc sim:/processor/ALUOp1 sim:/processor/ALUOp2 sim:/processor/ID_Imm sim:/processor/EXC_F sim:/processor/MEM_F sim:/processor/MEM_R2 sim:/processor/WB_F sim:/processor/WB_R2 sim:/processor/WB_Rd sim:/processor/WB_Rd2 sim:/processor/WB_RegWrt1 sim:/processor/WB_RegWrt2 sim:/processor/ZF sim:/processor/CF sim:/processor/NF 
+add wave -position insertpoint  \
+sim:/processor/PortInput \
+sim:/processor/PortOutput
+add wave -position insertpoint  \
+sim:/processor/WB_PortIn \
+sim:/processor/WB_PortOut
 force -freeze sim:/processor/PortInput 32'h5 0
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/processor/rst 1 0

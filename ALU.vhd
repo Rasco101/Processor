@@ -9,15 +9,16 @@ ENTITY ALU IS
         A, B:       IN std_logic_vector(31 downto 0);
         sel:        IN std_logic_vector(3 downto 0);
         F:          OUT std_logic_vector(31 downto 0);
-        CF, ZF, NF: OUT std_logic:= '0'  
+        CF, ZF, NF: OUT std_logic:= '0';
+        RC, RZ, RN: IN std_logic 
     );
 END ALU;
 
 
 ARCHITECTURE rtl OF ALU IS
-    
+    SIGNAL WAS_C, WAS_Z, WAS_N: std_logic;
 BEGIN
-    PROCESS(A, B, sel) 
+    PROCESS(clk, A, B, sel, RZ, RC, RN) 
         VARIABLE temp: std_logic_vector(32 downto 0);
     
     BEGIN
@@ -26,7 +27,7 @@ BEGIN
             CF <= '0';
             NF <= '0';
             F <= (others=>'0'); 
-        else
+        elsIF falling_edge(clk) THEN
 				CASE sel IS
             WHEN "0000" =>
                 temp(31 downto 0) := A;
@@ -60,7 +61,8 @@ BEGIN
                 IF B /= x"00000000" THEN
                     CF <= A(32 - to_integer(unsigned(B)));
                     temp(31 downto 0) := std_logic_vector(shift_left(unsigned(A), to_integer(unsigned(B(4 downto 0))))) ;
-                ELSE
+                    WAS_C <= A(32 - to_integer(unsigned(B)));
+                    ELSE
                     report "Shmnt is Zero: Lshift won't be applied";
                 END IF;
                 F <= temp(31 downto 0);
@@ -68,21 +70,34 @@ BEGIN
                 temp := ('0' & A) + 1;
                 CF <= temp(32);
                 F <= temp(31 downto 0);
+                WAS_C <= temp(32);
             WHEN "1001" => 
                 temp := ('0' & A) - 1;
                 CF <= temp(32);
                 F <= temp(31 downto 0);
+                WAS_C <= temp(32);
             WHEN others =>
                 null;
             END CASE;
             IF (temp(31 downto 0) = x"00000000" and sel /= "0000") THEN
                 ZF <= '1';
+                WAS_Z <= '1';
             END IF;
             IF sel /= "0000" THEN
                 NF <= temp(31);
             END IF;
+            
         END IF;
-        
+        IF rising_edge(clk) THEN
+            IF WAS_Z = '1' THEN
+                ZF <= '0';
+                WAS_Z <= '0';
+            END IF;
+        END IF;
+        IF rising_edge(RZ) THEN
+            WAS_Z <= '1';
+        END IF;
+
     END PROCESS;
     
 END ARCHITECTURE rtl;

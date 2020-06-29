@@ -8,9 +8,9 @@ ENTITY ID_EX_Register IS
 
 		--To Exec Stage
 		--IN
-		ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC: IN std_logic_vector(0 downto 0);
+		ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC, ID_RC, ID_RZ, ID_RN: IN std_logic_vector(0 downto 0);
 		--OUT
-		EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC: OUT std_logic_vector(0 downto 0);
+		EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC, EXC_RC, EXC_RZ, EXC_RN: OUT std_logic_vector(0 downto 0);
 		
 		-- To Mem Stage
 		--IN
@@ -57,6 +57,9 @@ ARCHITECTURE behavior_ID_EX_Register OF ID_EX_Register IS
     ID_EXC_SETC: my_nDFF PORT MAP(clk, rst, ID_SETC, stall, EXC_SETC);
     ID_EXC_CLRC: my_nDFF PORT MAP(clk, rst, ID_CLRC, stall, EXC_CLRC);
 	ID_EXC_ALISrcLDM: my_nDFF PORT MAP(clk, rst, ID_ALUSrcLDM, stall, EXC_ALUSrcLDM);
+	ID_EXC_RC: my_nDFF PORT MAP(clk, rst, ID_RC, stall, EXC_RC);
+	ID_EXC_RZ: my_nDFF PORT MAP(clk, rst, ID_RZ, stall, EXC_RZ);
+	ID_EXC_RN: my_nDFF PORT MAP(clk, rst, ID_RN, stall, EXC_RN);
 	
 	--------------- MEM ----------------
     ID_EXC_MemWrt: my_nDFF PORT MAP(clk, rst, ID_MemWrt, stall, EXC_MemWrt);

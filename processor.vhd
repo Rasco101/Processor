@@ -92,7 +92,7 @@ architecture Processor_imp of processor is
 
     SIGNAL IF_ID_STALL, RegDst1, RegDst2, JZ, JN, JC, JMP: std_logic;
     SIGNAL  ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC, ID_MemWrt, ID_CALL, ID_RET, ID_RTI,
-            ID_MemToReg, ID_PortIn, ID_PortOut, ID_RegWrt1, ID_RegWrt2: std_logic_vector(0 downto 0);
+            ID_MemToReg, ID_PortIn, ID_PortOut, ID_RegWrt1, ID_RegWrt2, ID_JZ, ID_JC, ID_JN: std_logic_vector(0 downto 0);
     SIGNAL ID_SP: std_logic_vector(1 downto 0);
     SIGNAL ID_inst, ID_R1, ID_R2, ID_Imm: std_logic_vector(31 downto 0);
     SIGNAL Src1Mux, Src2Mux: std_logic_vector(2 downto 0);
@@ -105,9 +105,9 @@ architecture Processor_imp of processor is
     
             --To Exec Stage
             --IN
-            ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC: IN std_logic_vector(0 downto 0);
+            ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC, ID_RC, ID_RZ, ID_RN: IN std_logic_vector(0 downto 0);
             --OUT
-            EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC: OUT std_logic_vector(0 downto 0);
+            EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC, EXC_RC, EXC_RZ, EXC_RN: OUT std_logic_vector(0 downto 0);
             
             -- To Mem Stage
             --IN
@@ -144,7 +144,8 @@ architecture Processor_imp of processor is
             A, B:       IN std_logic_vector(31 downto 0);
             sel:        IN std_logic_vector(3 downto 0);
             F:          OUT std_logic_vector(31 downto 0);
-            CF, ZF, NF: OUT std_logic:= '0'  
+            CF, ZF, NF: OUT std_logic:= '0';
+            RC, RZ, RN: IN std_logic  
         );
     END COMPONENT;
 
@@ -174,7 +175,7 @@ architecture Processor_imp of processor is
 
     SIGNAL ID_EXC_STALL: std_logic:='0';
     SIGNAL  EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC, EXC_MemWrt, EXC_CALL, EXC_RET, EXC_RTI,
-            EXC_MemToReg, EXC_PortIn, EXC_PortOut, EXC_RegWrt1, EXC_RegWrt2: std_logic_vector(0 downto 0);
+            EXC_MemToReg, EXC_PortIn, EXC_PortOut, EXC_RegWrt1, EXC_RegWrt2, EXC_RC, EXC_RZ, EXC_RN: std_logic_vector(0 downto 0);
     SIGNAL CF, NF, ZF, CFOut, NFOut, ZFOut: std_logic; -- OUTPUT OF ALU & INPUT TO FLAGS REG
     SIGNAL EXC_SP, RS_Forward, RT_Forward: std_logic_vector(1 downto 0);
     SIGNAL EXC_R1, EXC_R2, EXC_Imm, ALUSrcLDMMux, ALUSrcMux, ALUOp1, 
@@ -294,6 +295,7 @@ architecture Processor_imp of processor is
     SIGNAL PCAdderOut, RegAdderOutMux, CALLMux: std_logic_vector(10 downto 0);  
     SIGNAL ApplyBranching, PCLatch: std_logic;
     SIGNAL rst: std_logic:='0';
+    SIGNAL ALU_RC, ALU_RZ, ALU_RN: std_logic;
 
 BEGIN
         rst <= RST_tt;
@@ -317,12 +319,18 @@ BEGIN
     ZeroExtend1632FX: ZeroExtend1632 PORT MAP(ID_Inst(20 DOWNTO 5), ID_Imm);
     Src1MUXFX: MUX21 GENERIC MAP(3) PORT MAP(ID_Inst(23 downto 21), ID_Inst(26 downto 24), RegDst1, Src1Mux);
     Src2MUXFX: MUX21 GENERIC MAP(3) PORT MAP(ID_Inst(20 downto 18), ID_Inst(26 downto 24), RegDst2, Src2Mux);
-    
+    ID_JC(0) <= JC;
+    ID_JZ(0) <= JZ;
+    ID_JN(0) <= JN;
+    ALU_RC <= EXC_RC(0) OR JC; 
+    ALU_RZ <= EXC_RZ(0) OR JZ; 
+    ALU_RN <= EXC_RN(0) OR JN; 
 
             --- ID_EXC REGISTER INTERCONNECTIONS ---
     ID_EXC_RST <= rst OR MEM_CALL(0) or MEM_RET(0) OR MEM_RTI(0);
-    ID_EXC_RegisterFX: ID_EX_Register PORT MAP(clk, ID_EXC_RST, '0', ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC,
-        EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC,
+    ID_EXC_RegisterFX: ID_EX_Register PORT MAP(
+        clk, ID_EXC_RST, '0', ID_ALUEn, ID_ALUSrc, ID_ALUSrcLDM, ID_SETC, ID_CLRC, ID_JC, ID_JZ, ID_JN,
+        EXC_ALUEn, EXC_ALUSrc, EXC_ALUSrcLDM, EXC_SETC, EXC_CLRC, EXC_RC, EXC_RZ, EXC_RN,
         ID_MemWrt, ID_CALL, ID_RET, ID_RTI, ID_SP,
         EXC_MemWrt, EXC_CALL, EXC_RET, EXC_RTI, EXC_SP,
         ID_MemToReg, ID_PortIn, ID_PortOut, ID_RegWrt1, ID_RegWrt2,
@@ -333,7 +341,7 @@ BEGIN
         EXC_Func);
 
             --- EXC STAGE INTERCONNECTIONS ---
-    ALUFX: ALU PORT MAP(clk, rst, ALUOp1, ALUOp2, ALUFunc, EXC_F, CF, ZF, NF);
+    ALUFX: ALU PORT MAP(clk, rst, ALUOp1, ALUOp2, ALUFunc, EXC_F, CF, ZF, NF, ALU_RC, ALU_RZ, ALU_RN);
     ALUControlUnitFX: ALUControlUnit PORT MAP(EXC_ALUEn, EXC_Func, ALUFunc);
     FlagsRegisterFX: FlagsRegister PORT MAP(clk, rst, '0', EXC_SETC(0), EXC_CLRC(0), ZF, NF, CF,
         ZFOut, NFOut, CFOut);
