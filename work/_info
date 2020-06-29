@@ -7,1027 +7,1622 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/College/3rd_Year/Computer Architecture/Project/re_delivery
+Z0 dD:/College/3rd_Year/Computer Architecture/Project/re_delivery
+<<<<<<< HEAD
+Z1 VHZegjP@HL=]ZK^2JahD_A0
+Z2 !s100 Xia9UAHZCG@Dfme1kHlnI0
+Z3 =======
+VL>LI>0Aoi4ATn09nJk=3I2
+!s100 >GD3RP:_]hNcM;[FnVdD11
+R0
+<<<<<<< HEAD
+!s110 1593369041
+!i10b 1
+!s108 1593369041.000000
+Z4 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd|
+Z5 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd|
+R3
+!s110 1593355048
+!i10b 1
+!s108 1593355048.000000
+R4
+R5
+R0
+<<<<<<< HEAD
+Z6 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd
+Z7 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd
+R3
+R6
+R7
+R0
+<<<<<<< HEAD
+w1593368494
+R3
+w1593354851
+R0
+<<<<<<< HEAD
+Z8 VCoDFRLf9;@@WeF=C^:Khe3
+Z9 !s100 k5zZ:??O4Z^F@SiD8<XjU0
+Z10 OV;C;10.5b;63
+32
+Z11 !s107 D:\College\3rd_Year\Computer Architecture\Project\Mazen\PC.vhd|
+!i10b 1
+Z12 DEx4 work 6 pc_reg 0 22 kNE^4G5XEdBl=I<2V^hTH2
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd|
+Z14 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd|
+R3
+VcD6Gn0b^Fm=7`oFnm^L1o0
+!s100 67o@[b6H39:4BGQMAN09]3
+R10
+32
+Z15 !s110 1593361229
+!i10b 1
+Z16 !s108 1593361229.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\College\3rd_Year\Computer Architecture\Project\Mazen\PC.vhd|
+R11
+R0
+<<<<<<< HEAD
+!s110 1593363470
+!i10b 1
+!s108 1593363470.000000
+R13
+R14
+R3
+R15
+!i10b 1
+R16
+R17
+R11
+R0
+<<<<<<< HEAD
+w1593363437
+Z18 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z19 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z20 dD:/College/3rd_Year/Computer Architecture/Project/Mazen
+Z21 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd
+Z22 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd
+R3
+w1593361125
+R18
+R19
+R20
+8D:\College\3rd_Year\Computer Architecture\Project\Mazen\PC.vhd
+FD:\College\3rd_Year\Computer Architecture\Project\Mazen\PC.vhd
+<<<<<<< HEAD
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd|
+Z24 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd|
+R3
+R23
+R24
+R0
+<<<<<<< HEAD
+R23
+R24
+R3
+R23
+R24
+R0
+<<<<<<< HEAD
+Z25 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd
+Z26 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd
+R3
+R25
+R26
+R0
+<<<<<<< HEAD
+Z27 w1590989935
+R3
+R27
+R0
+<<<<<<< HEAD
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd|
+Z29 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd|
+R3
+R28
+R29
+R0
+<<<<<<< HEAD
+R28
+R29
+R3
+R28
+R29
+R0
+<<<<<<< HEAD
+Z30 w1592688404
+R18
+R19
+R20
+Z31 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd
+Z32 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd
+R3
+R30
+R18
+R19
+R20
+R31
+R32
+<<<<<<< HEAD
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd|
+Z34 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd|
+R3
+R33
+R34
+R0
+<<<<<<< HEAD
+R33
+R34
+R3
+R33
+R34
+R0
+<<<<<<< HEAD
+Z35 w1589769262
+R18
+R19
+R20
+Z36 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd
+Z37 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd
+R3
+R35
+R18
+R19
+R20
+R36
+R37
+<<<<<<< HEAD
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd|
+Z39 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd|
+R3
+R38
+R39
+R0
+<<<<<<< HEAD
+R38
+R39
+R3
+R38
+R39
+R0
+<<<<<<< HEAD
+Z40 w1589768896
+R18
+R19
+R20
+Z41 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd
+Z42 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd
+R3
+R40
+R18
+R19
+R20
+R41
+R42
+<<<<<<< HEAD
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd|
+Z44 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd|
+R3
+R43
+R44
+R0
+<<<<<<< HEAD
+R43
+R44
+R3
+R43
+R44
+R0
+<<<<<<< HEAD
+Z45 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd
+Z46 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd
+R3
+R45
+R46
+R0
+<<<<<<< HEAD
+Z47 w1591071683
+R3
+R47
+R0
+<<<<<<< HEAD
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd|
+Z49 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd|
+R3
+R48
+R49
+R0
+<<<<<<< HEAD
+R48
+R49
+R3
+R48
+R49
+R0
+<<<<<<< HEAD
+Z50 w1592946231
+R18
+R19
+R20
+Z51 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd
+Z52 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd
+R3
+R50
+R18
+R19
+R20
+R51
+R52
+<<<<<<< HEAD
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd|
+Z54 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd|
+R3
+R53
+R54
+R0
+<<<<<<< HEAD
+R53
+R54
+R3
+R53
+R54
+R0
+<<<<<<< HEAD
+Z55 w1591074298
+R18
+R19
+R20
+Z56 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd
+Z57 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd
+R3
+R55
+R18
+R19
+R20
+R56
+R57
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+R10
+32
+R4
+!i10b 1
+R5
+R4
+R5
+!i113 1
+Z58 o-work work -2002 -explicit
+Z59 tExplicit 1 CvgOpt 0
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Aprocessor_imp
+Z60 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z61 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z62 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R18
+R19
+Z63 DEx4 work 9 processor 0 22 R>T@1RDC]35R^Y_Y^cjMW3
+l298
+L13
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L6
+Z64 VR>T@1RDC]35R^Y_Y^cjMW3
+Z65 !s100 a2bMd>@WR^<;gnWW9WfEa2
+R10
+32
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+R60
+R61
+R62
+R18
+R19
+R20
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Apc_reg_imp
+R18
+R19
+R12
+l14
+L12
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L4
+Z66 VkNE^4G5XEdBl=I<2V^hTH2
+Z67 !s100 d^cKFZIP^C0ZDSOBioiX03
+R10
+32
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Apc_add
+R60
+R61
+R62
+R18
+R19
+Z68 DEx4 work 8 pc_adder 0 22 AE63oX7LmGjcY36W5GN3e0
+l16
+L14
+Z69 VY3LPc@5Z@HHaBMW94]7dg1
+Z70 !s100 _5I1WleO`@<6TDf_9_2RI3
+R10
+32
+Z71 !s110 1593206490
+!i10b 1
+Z72 !s108 1593206490.000000
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L6
+Z73 VAE63oX7LmGjcY36W5GN3e0
+Z74 !s100 DUV3Fe884VB79eWgRSDa<3
+R10
+32
+R71
+!i10b 1
+R72
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+R60
+R61
+R62
+R18
+R19
+R20
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Aa_my_ndff
+R18
+R19
+Z75 DEx4 work 7 my_ndff 0 22 E3[IYS^khXgaA?FF`NYNT1
+l13
+L12
+Z76 V2?2;JH`c:kh4168=kM[@<3
+Z77 !s100 8<>g0h?8BXn9ZI?10_?@B2
+R10
+32
+R71
+!i10b 1
+R72
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L4
+Z78 VE3[IYS^khXgaA?FF`NYNT1
+Z79 !s100 IzfeFOOWAEc@<B59a^LRW1
+R10
+32
+R71
+!i10b 1
+R72
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Abehavior_mux41
+R18
+R19
+Z80 DEx4 work 5 mux41 0 22 ]=l0?XQVMeUT4BTdEOaWA1
+l13
+L12
+Z81 VZ9XYX3?Bg59kb<aB_6z[X3
+Z82 !s100 Ic[L^za2SDGc<oC3a3NaU2
+R10
+32
+R71
+!i10b 1
+Z83 !s108 1593206489.000000
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L4
+Z84 V]=l0?XQVMeUT4BTdEOaWA1
+Z85 !s100 ?IIJ@oWSh8iiHVRb?PG:m0
+R10
+32
+R71
+!i10b 1
+R83
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Abehavior_mux21
+R18
+R19
+Z86 DEx4 work 5 mux21 0 22 ZlGRN[IUF:YJ`o_PS5eZ23
+l13
+L12
+Z87 Vg_TVLNG@XEnUZMa[b^6fk0
+Z88 !s100 GB`Kl2b69e^8HTC>9bDcO3
+R10
+32
+Z89 !s110 1593206489
+!i10b 1
+R83
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L4
+Z90 VZlGRN[IUF:YJ`o_PS5eZ23
+Z91 !s100 Va7D?cAThe2CGaOF9b6nY0
+R10
+32
+R89
+!i10b 1
+R83
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Amempcadder_imp
+R60
+R61
+R62
+R18
+R19
+Z92 DEx4 work 10 mempcadder 0 22 S`4^3ib201L]]82z05BiX2
+l16
+L14
+Z93 VEYI]n@XPCZCJCQ1RkK?mK0
+Z94 !s100 f<j6`CcA8c>d4lUmoE8ha3
+R10
+32
+R89
+!i10b 1
+R83
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L7
+Z95 VS`4^3ib201L]]82z05BiX2
+Z96 !s100 aD?DM:kE2heM=<j`GoRD13
+R10
+32
+R89
+!i10b 1
+R83
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+R60
+R61
+R62
+R18
+R19
+R20
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Abehavior_mem_wb_register
+R18
+R19
+Z97 DEx4 work 15 mem_wb_register 0 22 ?;^jFbDV[e0Ele03A0=ma2
+l34
+L25
+Z98 VS`A88ec9[PBWG1VZ]::A`0
+Z99 !s100 6oADWn_RM2RB`LbnA^4_W0
+R10
+32
+R89
+!i10b 1
+R83
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L4
+Z100 V?;^jFbDV[e0Ele03A0=ma2
+Z101 !s100 VD5a_g2j`1Ml2NMO1VcgM0
+R10
+32
+R89
+!i10b 1
+R83
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+!i113 1
+R58
+R59
+R0
+Abehavior_jumptypedetectionunit
+R18
+R19
+Z102 DEx4 work 21 jumptypedetectionunit 0 22 b^QmZS^og;7451^<T@XdZ0
+l14
+L11
+Z103 V^kH5>m6WFT6fIzAj3K_C82
+Z104 !s100 NUgdbzPZzf@nHjjH<4A@50
+R10
+32
+R89
+!i10b 1
+R83
+>>>>>>> 6b3ee9a4e0b3de0070d250d599a8c702c6ea4117
+l0
+L4
+Z105 Vb^QmZS^og;7451^<T@XdZ0
+Z106 !s100 mGCF;^YH=[nCJUSc[@ONX2
+R10
+32
+R89
+!i10b 1
+R83
+R0
 Ealu
-Z0 w1593207662
-Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z6 dD:/College/3rd_Year/Computer Architecture/Project/Mazen
-Z7 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd
-Z8 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd
+Z107 w1593207662
+R60
+R61
+R62
+R18
+R19
+R20
+Z108 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd
+Z109 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd
 l0
 L6
 V4fV77YRkX8<D;DPUC:2a^1
 !s100 7zi73kZje@IR0:>Xd[HFc2
-Z9 OV;C;10.5b;63
+R10
 32
-Z10 !s110 1593207703
+Z110 !s110 1593372722
 !i10b 1
-Z11 !s108 1593207703.000000
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd|
-Z13 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd|
+Z111 !s108 1593372722.000000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd|
+Z113 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALU.vhd|
 !i113 1
-Z14 o-work work -2002 -explicit
-Z15 tExplicit 1 CvgOpt 0
+R58
+R59
 Artl
-R1
-R2
-R3
-R4
-R5
+R60
+R61
+R62
+R18
+R19
 DEx4 work 3 alu 0 22 4fV77YRkX8<D;DPUC:2a^1
 l19
 L17
 VjXLe@Ak01l^<;]nDUh<4e3
 !s100 X>fzh`Qf7CT3H?;UCZHP[2
-R9
-32
 R10
+32
+R110
 !i10b 1
-R11
-R12
-R13
+R111
+R112
+R113
 !i113 1
-R14
-R15
+R58
+R59
 Ealucontrolunit
-Z16 w1591023180
-R4
-R5
-R6
-Z17 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd
-Z18 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd
+Z114 w1591023180
+R18
+R19
+R20
+Z115 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd
+Z116 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd
 l0
 L4
 VnOoYoG8XdmVe8O4j@OHC:3
 !s100 6;?5^odjHoID76_TJIP:_1
-R9
+R10
 32
-Z19 !s110 1593206488
+Z117 !s110 1593372723
 !i10b 1
-Z20 !s108 1593206488.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd|
-Z22 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd|
+Z118 !s108 1593372723.000000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd|
+Z120 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ALUControlUnit.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_alucontrolunit
-R4
-R5
+R18
+R19
 DEx4 work 14 alucontrolunit 0 22 nOoYoG8XdmVe8O4j@OHC:3
 l13
 L12
 VAQ7I@3_QZS4eGcE]IfnhT0
 !s100 iGoN=KWmZ;6R4`X:O=l`e3
-R9
+R10
 32
-R19
+R117
 !i10b 1
-R20
-R21
-R22
+R118
+R119
+R120
 !i113 1
-R14
-R15
+R58
+R59
 Econtrolunit
-Z23 w1593304473
-R4
-R5
-R6
-Z24 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd
-Z25 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd
+Z121 w1593304473
+R18
+R19
+R20
+Z122 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd
+Z123 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd
 l0
 L4
 VTk5UXaz3iid5G`PcBn<>h2
 !s100 kRPj2Enfl5MC6^4B3BO>b3
-R9
+R10
 32
-Z26 !s110 1593362767
+R117
 !i10b 1
-Z27 !s108 1593362766.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd|
-Z29 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd|
+R118
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd|
+Z125 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ControlUnit.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_controlunit
-R4
-R5
+R18
+R19
 DEx4 work 11 controlunit 0 22 Tk5UXaz3iid5G`PcBn<>h2
 l14
 L13
 VJlEBBSLFBQ4jSE5g[f_Oo0
 !s100 3nzMfb5Fg4_HL>I7f?LLk2
-R9
+R10
 32
-R26
+R117
 !i10b 1
-R27
-R28
-R29
+R118
+R124
+R125
 !i113 1
-R14
-R15
+R58
+R59
 Edatamemory
-Z30 w1593207737
-R1
-R2
-R3
-R4
-R5
-R6
-Z31 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd
-Z32 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd
+Z126 w1593207737
+R60
+R61
+R62
+R18
+R19
+R20
+Z127 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd
+Z128 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd
 l0
 L6
 Vj512I9D0jCm7M]AUJ_@DC1
 !s100 @_NbEDJOj5RC=lI4SSFAf1
-R9
+R10
 32
-Z33 !s110 1593207831
+R117
 !i10b 1
-Z34 !s108 1593207831.000000
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd|
-Z36 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd|
+R118
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd|
+Z130 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/DataMemory.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Ainstmemort_inp
-R1
-R2
-R3
-R4
-R5
+R60
+R61
+R62
+R18
+R19
 DEx4 work 10 datamemory 0 22 j512I9D0jCm7M]AUJ_@DC1
 l23
 L18
 VbMHmi^13lIDUg]ja1THc42
 !s100 X8_HB1f4B<8nk6;k3<9:`1
-R9
+R10
 32
-R33
+R117
 !i10b 1
-R34
-R35
-R36
+R118
+R129
+R130
 !i113 1
-R14
-R15
+R58
+R59
 Eex_mem_register
-Z37 w1592946222
-R4
-R5
-R6
-Z38 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd
-Z39 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd
+Z131 w1592946222
+R18
+R19
+R20
+Z132 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd
+Z133 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd
 l0
 L4
 VPK_IcLlm@Q:5m;UH8hj>L0
 !s100 ALfIXa2h0N^EV851GK=YI3
-R9
+R10
 32
-Z40 !s110 1593206489
+R117
 !i10b 1
-Z41 !s108 1593206489.000000
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd|
-Z43 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd|
+R118
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd|
+Z135 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/EX_MEM_Register.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_ex_mem_register
-R4
-R5
+R18
+R19
 DEx4 work 15 ex_mem_register 0 22 PK_IcLlm@Q:5m;UH8hj>L0
 l45
 L36
 Vf18Qfz_5Uk:RQH;SJfE0n1
 !s100 A[HgNIK?V314nfF:KC`3]0
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R42
-R43
+R118
+R134
+R135
 !i113 1
-R14
-R15
+R58
+R59
 Eexternal_port
-Z44 w1592851638
-R3
-R4
-R5
-R6
-Z45 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd
-Z46 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd
+Z136 w1592851638
+R62
+R18
+R19
+R20
+Z137 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd
+Z138 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd
 l0
 L5
 VMZeE?E41za?=NjcR9ZGjX1
 !s100 PcoICdeV_7f1F;IG3fCOX0
-R9
+R10
 32
-Z47 !s110 1593206490
+Z139 !s110 1593372724
 !i10b 1
-Z48 !s108 1593206490.000000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd|
-Z50 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd|
+Z140 !s108 1593372724.000000
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd|
+Z142 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PORT.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Aport_imp
-R3
-R4
-R5
+R62
+R18
+R19
 DEx4 work 13 external_port 0 22 MZeE?E41za?=NjcR9ZGjX1
 l21
 L19
 VhCfRad:Bij9kMRgWEHk482
 !s100 <YlG_cMIW?2[Y[Pb0J@Lb2
-R9
+R10
 32
-R47
+R139
 !i10b 1
-R48
-R49
-R50
+R140
+R141
+R142
 !i113 1
-R14
-R15
+R58
+R59
 Eflagsregister
-Z51 w1591028539
-R4
-R5
-R6
-Z52 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd
-Z53 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd
+Z143 w1591028539
+R18
+R19
+R20
+Z144 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd
+Z145 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd
 l0
 L4
 V>@liKXTYgmY<:YPX6c1_N2
 !s100 GYg@05oTfGB4:TQBTU<7]0
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd|
-Z55 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd|
+R118
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd|
+Z147 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/FlagsRegister.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_flagsregister
-R4
-R5
+R18
+R19
 DEx4 work 13 flagsregister 0 22 >@liKXTYgmY<:YPX6c1_N2
 l13
 L11
 VaG69Zlj[G^DJDmfSA5GMI1
 !s100 W4MTPSbfnUe[?R4Ja9h4R2
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R54
-R55
+R118
+R146
+R147
 !i113 1
-R14
-R15
+R58
+R59
 Eforwardunit
-Z56 w1591069916
-R4
-R5
-R6
-Z57 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd
-Z58 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd
+Z148 w1591069916
+R18
+R19
+R20
+Z149 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd
+Z150 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd
 l0
 L4
 VaYZL2`IeV7g:_Yb^V?R:k1
 !s100 7d3>6bQMg[C7N]G38G[eQ3
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd|
-Z60 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd|
+R118
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd|
+Z152 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ForwardingUnit.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_forwardunit
-R4
-R5
+R18
+R19
 DEx4 work 11 forwardunit 0 22 aYZL2`IeV7g:_Yb^V?R:k1
 l12
 L11
 VNT?Vmjj]kf5VY>P706O?h2
 !s100 eh6_nAa2T4jL?i7g`U<WT2
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R59
-R60
+R118
+R151
+R152
 !i113 1
-R14
-R15
+R58
+R59
 Eid_ex_register
-Z61 w1592946214
-R4
-R5
-R6
-Z62 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd
-Z63 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd
+Z153 w1592946214
+R18
+R19
+R20
+Z154 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd
+Z155 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd
 l0
 L4
 VC6QJF^c<oB8cZT[mNKfOE3
 !s100 VP^VeRGK`3UKUc?X1zz:X0
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd|
-Z65 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd|
+R118
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd|
+Z157 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ID_EX_Register.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_id_ex_register
-R4
-R5
+R18
+R19
 DEx4 work 14 id_ex_register 0 22 C6QJF^c<oB8cZT[mNKfOE3
 l53
 L43
 Vm?PTANPRLZK4C;BbjQGM53
 !s100 >Smz;<XgU2>N<g176cEIM1
-R9
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R64
-R65
+R118
+R156
+R157
 !i113 1
-R14
-R15
+R58
+R59
 Eif_id_register
-Z66 w1593369522
-R3
-R4
-R5
-R6
-Z67 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd
-Z68 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd
+Z158 w1593372549
+R62
+R18
+R19
+R20
+Z159 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd
+Z160 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd
 l0
 L5
 VQHVQ45Zg04bmVcP>:Z0:M3
 !s100 j[UDaCd<HF9a5=?dG3GW<3
-R9
+R10
 32
-Z69 !s110 1593369535
+R117
 !i10b 1
-Z70 !s108 1593369535.000000
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd|
-Z72 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd|
+R118
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd|
+Z162 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/IF_ID_Register.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_if_id_register
-R3
-R4
-R5
-Z73 DEx4 work 14 if_id_register 0 22 QHVQ45Zg04bmVcP>:Z0:M3
-l34
+R62
+R18
+R19
+DEx4 work 14 if_id_register 0 22 QHVQ45Zg04bmVcP>:Z0:M3
+l33
 L24
-Z74 V2YKi;6Da<bG0:5YDg<Q3:2
-Z75 !s100 hBR[;Tal<`H[JN@=HglTU3
-R9
+VZ>ohL8=N0X5aXKWmd_IVE3
+!s100 AR0oA^_U0?HJR000KgV_F0
+R10
 32
-R69
+R117
 !i10b 1
-R70
-R71
-R72
+R118
+R161
+R162
 !i113 1
-R14
-R15
+R58
+R59
 Einstmemory
-Z76 w1593303576
-R3
-R4
-R5
-R6
-Z77 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd
-Z78 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd
+Z163 w1593303576
+R62
+R18
+R19
+R20
+Z164 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd
+Z165 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd
 l0
 L5
 VenmQcQ^EaQ9:>BmT0O11R3
 !s100 ;Aaz^neKk^;Tfmn0[4BH:0
-R9
+R10
 32
-Z79 !s110 1593303591
+R117
 !i10b 1
-Z80 !s108 1593303591.000000
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd|
-Z82 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd|
+R118
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd|
+Z167 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/InstMemory.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Ainstmemort_inp
-R3
-R4
-R5
+R62
+R18
+R19
 DEx4 work 10 instmemory 0 22 enmQcQ^EaQ9:>BmT0O11R3
 l19
 L16
 V0clRg>4Wi8fn`XOQ5_JTX0
 !s100 lX2JiQL>jEVY]4@YAO4JL2
-R9
+R10
 32
-R79
+R117
 !i10b 1
-R80
-R81
-R82
+R118
+R166
+R167
 !i113 1
-R14
-R15
+R58
+R59
 Ejumptypedetectionunit
-Z83 w1591074298
-R4
-R5
-R6
-Z84 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd
-Z85 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd
+R55
+R18
+R19
+R20
+R56
+R57
 l0
 L4
-Vb^QmZS^og;7451^<T@XdZ0
-!s100 mGCF;^YH=[nCJUSc[@ONX2
-R9
+R105
+R106
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd|
-Z87 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/JumpTypeDetectionUnit.vhd|
+R118
+R53
+R54
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_jumptypedetectionunit
-R4
-R5
-DEx4 work 21 jumptypedetectionunit 0 22 b^QmZS^og;7451^<T@XdZ0
+R18
+R19
+R102
 l14
 L11
-V^kH5>m6WFT6fIzAj3K_C82
-!s100 NUgdbzPZzf@nHjjH<4A@50
-R9
+R103
+R104
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R86
-R87
+R118
+R53
+R54
 !i113 1
-R14
-R15
+R58
+R59
 Emem_wb_register
-Z88 w1592946231
-R4
-R5
-R6
-Z89 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd
-Z90 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd
+R50
+R18
+R19
+R20
+R51
+R52
 l0
 L4
-V?;^jFbDV[e0Ele03A0=ma2
-!s100 VD5a_g2j`1Ml2NMO1VcgM0
-R9
+R100
+R101
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd|
-Z92 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MEM_WB_Register.vhd|
+R118
+R48
+R49
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_mem_wb_register
-R4
-R5
-DEx4 work 15 mem_wb_register 0 22 ?;^jFbDV[e0Ele03A0=ma2
+R18
+R19
+R97
 l34
 L25
-VS`A88ec9[PBWG1VZ]::A`0
-!s100 6oADWn_RM2RB`LbnA^4_W0
-R9
+R98
+R99
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R91
-R92
+R118
+R48
+R49
 !i113 1
-R14
-R15
+R58
+R59
 Emempcadder
-Z93 w1591071683
-R1
-R2
-R3
-R4
-R5
-R6
-Z94 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd
-Z95 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd
+R47
+R60
+R61
+R62
+R18
+R19
+R20
+R45
+R46
 l0
 L7
-VS`4^3ib201L]]82z05BiX2
-!s100 aD?DM:kE2heM=<j`GoRD13
-R9
+R95
+R96
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd|
-Z97 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MemPCAdder.vhd|
+R118
+R43
+R44
 !i113 1
-R14
-R15
+R58
+R59
 Amempcadder_imp
-R1
-R2
-R3
-R4
-R5
-DEx4 work 10 mempcadder 0 22 S`4^3ib201L]]82z05BiX2
+R60
+R61
+R62
+R18
+R19
+R92
 l16
 L14
-VEYI]n@XPCZCJCQ1RkK?mK0
-!s100 f<j6`CcA8c>d4lUmoE8ha3
-R9
+R93
+R94
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R96
-R97
+R118
+R43
+R44
 !i113 1
-R14
-R15
+R58
+R59
 Emux21
-Z98 w1589768896
-R4
-R5
-R6
-Z99 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd
-Z100 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd
+R40
+R18
+R19
+R20
+R41
+R42
 l0
 L4
-VZlGRN[IUF:YJ`o_PS5eZ23
-!s100 Va7D?cAThe2CGaOF9b6nY0
-R9
+R90
+R91
+R10
 32
-R40
+R117
 !i10b 1
-R41
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd|
-Z102 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX21.vhd|
+R118
+R38
+R39
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_mux21
-R4
-R5
-DEx4 work 5 mux21 0 22 ZlGRN[IUF:YJ`o_PS5eZ23
+R18
+R19
+R86
 l13
 L12
-Vg_TVLNG@XEnUZMa[b^6fk0
-!s100 GB`Kl2b69e^8HTC>9bDcO3
-R9
+R87
+R88
+R10
 32
-R40
+R117
 !i10b 1
-R41
-R101
-R102
+R118
+R38
+R39
 !i113 1
-R14
-R15
+R58
+R59
 Emux41
-Z103 w1589769262
-R4
-R5
-R6
-Z104 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd
-Z105 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd
+R35
+R18
+R19
+R20
+R36
+R37
 l0
 L4
-V]=l0?XQVMeUT4BTdEOaWA1
-!s100 ?IIJ@oWSh8iiHVRb?PG:m0
-R9
+R84
+R85
+R10
 32
-R47
+R139
 !i10b 1
-R41
-Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd|
-Z107 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/MUX41.vhd|
+R140
+R33
+R34
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_mux41
-R4
-R5
-DEx4 work 5 mux41 0 22 ]=l0?XQVMeUT4BTdEOaWA1
+R18
+R19
+R80
 l13
 L12
-VZ9XYX3?Bg59kb<aB_6z[X3
-!s100 Ic[L^za2SDGc<oC3a3NaU2
-R9
+R81
+R82
+R10
 32
-R47
+R139
 !i10b 1
-R41
-R106
-R107
+R140
+R33
+R34
 !i113 1
-R14
-R15
+R58
+R59
 Emy_ndff
-Z108 w1592688404
-R4
-R5
-R6
-Z109 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd
-Z110 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd
+R30
+R18
+R19
+R20
+R31
+R32
 l0
 L4
-VE3[IYS^khXgaA?FF`NYNT1
-!s100 IzfeFOOWAEc@<B59a^LRW1
-R9
+R78
+R79
+R10
 32
-R47
+R139
 !i10b 1
-R48
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd|
-Z112 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/my_nDFF.vhd|
+R140
+R28
+R29
 !i113 1
-R14
-R15
+R58
+R59
 Aa_my_ndff
-R4
-R5
-DEx4 work 7 my_ndff 0 22 E3[IYS^khXgaA?FF`NYNT1
+R18
+R19
+R75
 l13
 L12
-V2?2;JH`c:kh4168=kM[@<3
-!s100 8<>g0h?8BXn9ZI?10_?@B2
-R9
+R76
+R77
+R10
 32
-R47
+R139
 !i10b 1
-R48
-R111
-R112
+R140
+R28
+R29
 !i113 1
-R14
-R15
+R58
+R59
 Epc_adder
-Z113 w1590989935
-R1
-R2
-R3
-R4
-R5
-R6
-Z114 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd
-Z115 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd
+R27
+R60
+R61
+R62
+R18
+R19
+R20
+R25
+R26
 l0
 L6
-VAE63oX7LmGjcY36W5GN3e0
-!s100 DUV3Fe884VB79eWgRSDa<3
-R9
+R73
+R74
+R10
 32
-R47
+R139
 !i10b 1
-R48
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd|
-Z117 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC_Adder.vhd|
+R140
+R23
+R24
 !i113 1
-R14
-R15
+R58
+R59
 Apc_add
-R1
-R2
-R3
-R4
-R5
-DEx4 work 8 pc_adder 0 22 AE63oX7LmGjcY36W5GN3e0
+R60
+R61
+R62
+R18
+R19
+R68
 l16
 L14
-VY3LPc@5Z@HHaBMW94]7dg1
-!s100 _5I1WleO`@<6TDf_9_2RI3
-R9
+R69
+R70
+R10
 32
-R47
+R139
 !i10b 1
-R48
-R116
-R117
+R140
+R23
+R24
 !i113 1
-R14
-R15
+R58
+R59
 Epc_reg
-Z118 w1593363437
-R4
-R5
-R6
-Z119 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd
-Z120 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd
+Z168 w1593371743
+R18
+R19
+R20
+R21
+R22
 l0
 L4
-VkNE^4G5XEdBl=I<2V^hTH2
-!s100 d^cKFZIP^C0ZDSOBioiX03
-R9
+R66
+R67
+R10
 32
-Z121 !s110 1593363470
+R139
 !i10b 1
-Z122 !s108 1593363470.000000
-Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd|
-Z124 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PC.vhd|
-!i113 1
+R140
+R13
 R14
-R15
+!i113 1
+R58
+R59
 Apc_reg_imp
-R4
-R5
-DEx4 work 6 pc_reg 0 22 kNE^4G5XEdBl=I<2V^hTH2
+R18
+R19
+R12
 l14
 L12
-VCoDFRLf9;@@WeF=C^:Khe3
-!s100 k5zZ:??O4Z^F@SiD8<XjU0
+R8
 R9
+R10
 32
-R121
+R139
 !i10b 1
-R122
-R123
-R124
-!i113 1
+R140
+R13
 R14
-R15
+!i113 1
+R58
+R59
 Epclatchsignals
-Z125 w1591029001
-R3
-R4
-R5
-R6
-Z126 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd
-Z127 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd
+Z169 w1591029001
+R62
+R18
+R19
+R20
+Z170 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd
+Z171 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd
 l0
 L5
 VHbJ7c;YaV17UTnV:F5N7m3
 !s100 :I9XO0a;=?8[C:o>>Y5S:0
-R9
+R10
 32
-R47
+R139
 !i10b 1
-R48
-Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd|
-Z129 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd|
+R140
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd|
+Z173 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/PCLatchSignals.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Apclatchsignals_imp
-R3
-R4
-R5
+R62
+R18
+R19
 DEx4 work 14 pclatchsignals 0 22 HbJ7c;YaV17UTnV:F5N7m3
 l14
 L12
 V5T71f_JiESgoJ^zeLAZc02
 !s100 `Gz^POzCFEcn;K5:[g_Nj0
-R9
+R10
 32
-R47
+R139
 !i10b 1
-R48
-R128
-R129
+R140
+R172
+R173
 !i113 1
-R14
-R15
+R58
+R59
 Eprocessor
-Z130 w1593368494
-R1
-R2
-R3
-R4
-R5
+Z174 w1593371703
+R60
+R61
+R62
+R18
+R19
+R20
 R6
-Z131 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd
-Z132 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd
+R7
 l0
 L6
-VR>T@1RDC]35R^Y_Y^cjMW3
-!s100 a2bMd>@WR^<;gnWW9WfEa2
-R9
+R64
+R65
+R10
 32
-Z133 !s110 1593369041
+R139
 !i10b 1
-Z134 !s108 1593369041.000000
-Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd|
-Z136 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/processor.vhd|
-!i113 1
-R14
-R15
-Aprocessor_imp
-R1
-R2
-R3
+R140
 R4
 R5
-DEx4 work 9 processor 0 22 R>T@1RDC]35R^Y_Y^cjMW3
+!i113 1
+R58
+R59
+Aprocessor_imp
+R60
+R61
+R62
+R18
+R19
+R63
 l298
 L13
-VHZegjP@HL=]ZK^2JahD_A0
-!s100 Xia9UAHZCG@Dfme1kHlnI0
-R9
+R1
+R2
+R10
 32
-R133
+R139
 !i10b 1
-R134
-R135
-R136
-!i113 1
-R14
-R15
-Ereg_file
-Z137 w1592944235
-R3
+R140
 R4
 R5
-R6
-Z138 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd
-Z139 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd
+!i113 1
+R58
+R59
+Ereg_file
+Z175 w1592944235
+R62
+R18
+R19
+R20
+Z176 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd
+Z177 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd
 l0
 L5
 VB>3PJRdjj65LREz^iXaHz0
 !s100 TG6PEhQ=mK[f@Hi]AZEO^2
-R9
+R10
 32
-R47
+R139
 !i10b 1
-R48
-Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd|
-Z141 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd|
+R140
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd|
+Z179 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/Reg_File.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Areg_file_imp
-R3
-R4
-R5
+R62
+R18
+R19
 DEx4 work 8 reg_file 0 22 B>3PJRdjj65LREz^iXaHz0
 l20
 L15
 VALl;hUTN1`;bWi<FDBI6f1
 !s100 X3U2Ga2KAzQRPM7k29@o]2
-R9
+R10
 32
-R47
+R139
 !i10b 1
-R48
 R140
-R141
+R178
+R179
 !i113 1
-R14
-R15
+R58
+R59
 Espcontrol
-Z142 w1593018418
-R1
-R2
-R3
-R4
-R5
-R6
-Z143 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd
-Z144 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd
+Z180 w1593018418
+R60
+R61
+R62
+R18
+R19
+R20
+Z181 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd
+Z182 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd
 l0
 L8
 V?Z;QQ2`5l8nP1WY<NO@L61
 !s100 mi62c_>11ekSVeh?5D`dl1
-R9
+R10
 32
-Z145 !s110 1593019111
+Z183 !s110 1593019111
 !i10b 1
-Z146 !s108 1593019111.000000
-Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd|
-Z148 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd|
+Z184 !s108 1593019111.000000
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd|
+Z186 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/SPControl.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Aspcontrol_imp
-R1
-R2
-R3
-R4
-R5
+R60
+R61
+R62
+R18
+R19
 DEx4 work 9 spcontrol 0 22 ?Z;QQ2`5l8nP1WY<NO@L61
 l19
 L15
 V_hJPBdeZJBbQ91]TVKWg23
 !s100 fP`7KZe6Rg90ZaRTXJ^fK0
-R9
+R10
 32
-R145
+R183
 !i10b 1
-R146
-R147
-R148
+R184
+R185
+R186
 !i113 1
-R14
-R15
+R58
+R59
 Etristatebuffer
-Z149 w1592851645
-R3
-R4
-R5
-R6
-Z150 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd
-Z151 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd
+Z187 w1592851645
+R62
+R18
+R19
+R20
+Z188 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd
+Z189 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd
 l0
 L6
 V@_4PnanPAbC:4Xa59Izh;0
 !s100 ]1GEja8JEOiADVYYC0TRT3
-R9
+R10
 32
-R47
+R139
 !i10b 1
-R48
-Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd|
-Z153 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd|
+R140
+Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd|
+Z191 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/TriStateBuffer.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Artl
-R3
-R4
-R5
-DEx4 work 14 tristatebuffer 0 22 @_4PnanPAbC:4Xa59Izh;0
+R62
+R18
+R19
+Z192 DEx4 work 14 tristatebuffer 0 22 @_4PnanPAbC:4Xa59Izh;0
 l16
 L14
-Vijk3ijC1Bd<8ZDimo8XLZ2
-!s100 n:HPYz;:YlhQQ;?A95Hk70
-R9
+Z193 Vijk3ijC1Bd<8ZDimo8XLZ2
+Z194 !s100 n:HPYz;:YlhQQ;?A95Hk70
+R10
 32
-R47
+R139
 !i10b 1
-R48
-R152
-R153
+R140
+R190
+R191
 !i113 1
-R14
-R15
+R58
+R59
 Ezeroextend1632
-Z154 w1589769774
-R4
-R5
-R6
-Z155 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd
-Z156 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd
+Z195 w1589769774
+R18
+R19
+R20
+Z196 8D:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd
+Z197 FD:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd
 l0
 L4
 V8XY[a_@[HURUPN8]WHGbD2
 !s100 En>zSmX`^>1Kha2W1575G3
-R9
+R10
 32
-R19
+R110
 !i10b 1
-R20
-Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd|
-Z158 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd|
+R111
+Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd|
+Z199 !s107 D:/College/3rd_Year/Computer Architecture/Project/Mazen/ZeroExtend1632.vhd|
 !i113 1
-R14
-R15
+R58
+R59
 Abehavior_zeroextend1632
-R4
-R5
+R18
+R19
 DEx4 work 14 zeroextend1632 0 22 8XY[a_@[HURUPN8]WHGbD2
 l11
 L10
 VkGWzEBD9N0SzI]:E2J3Hb3
 !s100 XP99A<8XZG:fajd563L[N1
-R9
+R10
 32
-R19
+R110
 !i10b 1
-R20
-R157
-R158
+R111
+R198
+R199
 !i113 1
-R14
-R15
+R58
+R59
