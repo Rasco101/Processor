@@ -1,9 +1,9 @@
 add wave -position insertpoint  \
 sim:/processor/CLK sim:/processor/RST_tt sim:/processor/reg_fileFX/rData sim:/processor/IF_Inst sim:/processor/ID_inst sim:/processor/ID_RegWrt1 sim:/processor/ID_RegWrt2 sim:/processor/ID_inst sim:/processor/ID_R1 sim:/processor/ID_R2 sim:/processor/reg_fileFX/OutR1 sim:/processor/reg_fileFX/OutR2 sim:/processor/reg_fileFX/R1 sim:/processor/reg_fileFX/R2 sim:/processor/ID_Imm sim:/processor/ALUFunc sim:/processor/ALUOp1 sim:/processor/ALUOp2 sim:/processor/ID_Imm sim:/processor/EXC_F sim:/processor/MEM_F sim:/processor/MEM_R2 sim:/processor/WB_F sim:/processor/WB_R2 sim:/processor/WB_Rd sim:/processor/WB_Rd2 sim:/processor/WB_RegWrt1 sim:/processor/WB_RegWrt2 sim:/processor/ZF sim:/processor/CF sim:/processor/NF 
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/RST_tt 1 0
 run
-force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/RST_tt 0 0
 force -freeze sim:/processor/InstMemoryFX/RAM(0) 0000000000000000 0
 force -freeze sim:/processor/InstMemoryFX/RAM(1) 0000000000000000 0
 force -freeze sim:/processor/InstMemoryFX/RAM(2) 0000000000000000 0
