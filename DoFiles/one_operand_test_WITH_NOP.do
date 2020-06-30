@@ -8,9 +8,9 @@ sim:/processor/WB_PortIn \
 sim:/processor/WB_PortOut
 force -freeze sim:/processor/PortInput 32'h5 0
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/processor/RST_tt 1 0
+force -freeze sim:/processor/rst 1 0
 run
-force -freeze sim:/processor/RST_tt 0 0
+force -freeze sim:/processor/rst 0 0
 force -freeze sim:/processor/InstMemoryFX/RAM(0) 0000000000000000 0
 force -freeze sim:/processor/InstMemoryFX/RAM(1) 0000000000000000 0
 force -freeze sim:/processor/InstMemoryFX/RAM(2) 0000000000000000 0
